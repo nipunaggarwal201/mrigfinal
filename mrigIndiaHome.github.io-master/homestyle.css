@@ -1,0 +1,91 @@
+#head{
+    margin-bottom:0!important;
+}
+#top{
+    position: absolute;
+}
+@media screen and (min-width:601px) {
+    #top-text {
+      font-size: 8px;
+    }
+  }
+  
+@media screen and (max-width:600px) {
+    #top-text {
+      display:none;
+    }
+  }
+#spin{
+    color:gray;
+    font-size:1vw;
+    position: relative;
+}
+#spin:after {
+    content:"";
+    animation: spin 7s linear infinite;
+}
+@keyframes spin{
+    0%{ content:"Celebrating over 18 years in business!!! Established since 2001"}
+    25%{content:"The first commercial search engine began. A new revolution began"}
+    50%{ content:"Celebrating over 18 years in business!!! Established since 2001"}
+    90%{content:"The first commercial search engine began. A new revolution began"}
+}
+#top-text{
+    padding-left:500px;
+}
+#main-banner{
+    width:100%;
+    background:#1B1B1B;
+    margin-bottom:0px;
+}
+#main{
+    height:110px;
+    width:175px;
+    padding-top:45px;
+}
+#nav{   
+    margin-top: -20!important;
+    background:rgb(242, 248, 248);
+}
+.sticky {
+    position: sticky;
+    top: 0px; /* When the element reaches top: 10px, it becomes fixed. */
+    z-index: 100;
+  }
+.navbar-toggler .navbar-toggler-icon{
+    background-color:darkslategray;
+
+}
+#nav-text{
+    color:rgb(48, 48, 48);
+    font-weight:900;
+    font-size:18px;
+    padding-left:0px;
+    padding-right:25px;
+}
+#nav-text:hover, #btn:hover{
+    color:gray;
+    text-decoration:underline;
+}
+#btn{
+    width:150px;
+    height:35px;
+    border-radius:450px;
+    color:darkslategray;
+    font-size:15px;
+}
+#topalign {
+    top: 40%;
+    bottom: auto;
+  
+}
+#text-above-carousel{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:900;
+    color:rgb(34, 36, 36);
+    width:auto;
+}
+#text-above-carousel:hover{
+    text-decoration: underline;
+    color:darkgray;
+}
